@@ -11,8 +11,8 @@ export function DynamicPreview({ store }: { store: AppState }) {
   const [showModel, setShowModel] = useState(true);
   const [debugMode, setDebugMode] = useState(false);
   const [debugBases, setDebugBases] = useState({
-    male: { '肩部': 40, '肘部': 65, '手腕': 88, '臀部': 90, '大腿中部': 120, '脚踝': 69, '鞋面': 73 },
-    female: { '肩部': 46, '肘部': 70, '手腕': 90, '臀部': 90, '大腿中部': 120, '脚踝': 69, '鞋面': 73 }
+    male: { '肩部': 40, '肘部': 70, '手腕': 93, '臀部': 95, '大腿中部': 120, '脚踝': 76, '鞋面': 80 },
+    female: { '肩部': 46, '肘部': 75, '手腕': 97, '臀部': 94, '大腿中部': 120, '脚踝': 76, '鞋面': 80 }
   });
 
   const exportImage = async () => {
